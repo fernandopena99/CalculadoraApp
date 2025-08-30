@@ -45,7 +45,7 @@ public class CalculadoraApp {
         var operando1 = Double.parseDouble(consola.nextLine());
         System.out.print("Proporciona el valor operando2: ");
         var operando2 = Double.parseDouble(consola.nextLine());
-        Double resultado;
+        double resultado;
         switch (operacion) {
             case 1 -> { //Suma
                 resultado = operando1 + operando2;
